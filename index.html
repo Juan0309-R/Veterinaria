@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinaria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .banner {
+            background: url('https://www.publico.es/yo-animal/wp-content/uploads/2024/10/shih-1024x682.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 150px 0;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .btn-accent {
+            background-color: #ff9800;
+            color: white;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .btn-accent:hover {
+            background-color: #e68900;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+        .navbar {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #004085;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-paw"></i> Clínica Veterinaria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="banner text-center">
+        <div class="container">
+            <h1 class="display-4">Cuidamos de tus Mascotas 🐾</h1>
+            <p class="lead">Atención profesional y amor por los animales</p>
+            <button class="btn btn-lg btn-accent">Agenda tu Cita</button>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://hospitalveterinario.cr/wp-content/uploads/2018/11/consulta-veterinaria-1.jpg" class="card-img-top" alt="Consulta General">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-stethoscope"></i> Consulta General</h5>
+                            <p class="card-text">Revisiones médicas para una vida saludable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://www.shutterstock.com/image-photo/veterinarian-during-dog-surgery-selective-600nw-2502928635.jpg" class="card-img-top" alt="Cirugías">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-syringe"></i> Cirugías</h5>
+                            <p class="card-text">Procedimientos seguros y confiables.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://www.animalhome.com.mx/wp-content/uploads/2019/11/vacuna.png" class="card-img-top" alt="Vacunaciones">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-syringe"></i> Vacunaciones</h5>
+                            <p class="card-text">Protección para tus mascotas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipo" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-4">Nuestro Equipo</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://asvet.do/wp-content/uploads/2024/03/Javier_Pineda-600x600.png" class="card-img-top" alt="Dr. Juan Pérez">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Juan Pérez</h5>
+                            <p class="card-text">Especialista en cirugía veterinaria.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://scontent.fjbq1-1.fna.fbcdn.net/v/t39.30808-6/380835961_10230257813018597_6840395194461225187_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=110&ccb=1-7&_nc_sid=fe5ecc&_nc_eui2=AeHymg994f60ocwWknAGk0IdN3MGFKJnFSE3cwYUomcVIe7MYXoEJLjUmJ2zh1fcE7wNagJkpnh2gBTKlWZoXxS6&_nc_ohc=o9OUfZL2Z14Q7kNvgGEQOSz&_nc_oc=AdgufZs6ZciPTAdCk-XEloJNLKENDjx1tV7fjy9eEEyJiPrYMHwFAg3vreZCQKdkEGU&_nc_zt=23&_nc_ht=scontent.fjbq1-1.fna&_nc_gid=ASSfFjUJKyqZ-2N2-rdnuZM&oh=00_AYA0TXiH1LkGHtzaDdmIqrPhgggAX0dFgwqtMJ40TF1xFA&oe=67CD56B3" class="card-img-top" alt="Ana Rivera">
+                        <div class="card-body">
+                            <h5 class="card-title">Ana Rivera</h5>
+                            <p class="card-text">Médico veterinario zootecnista.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://scontent.fjbq1-1.fna.fbcdn.net/v/t39.30808-1/475193048_3911931352384771_2818838984090509997_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeEjZ4sUQ7eyiMV6-Z5CbIDSPU6A0y2U91A9ToDTLZT3UD_rc_iCqaduRY17SCUoVGY-6AH2gNpcKnxctuWLg4C2&_nc_ohc=ILZJ6Qy4AIUQ7kNvgEFJ6HB&_nc_oc=AdhJz4YUXg_3tj488VYs0MXPXrqC0HEBftnZa5q1krXptvjeFBbms4ayVy-GWjT49c8&_nc_zt=24&_nc_ht=scontent.fjbq1-1.fna&_nc_gid=AyyY-zmo9SBJhp_dciD7wr_&oh=00_AYCeSsaDlUU35BbhHh1cJDf1lkgVxIu0ITD30Wh7vbBKNw&oe=67CD65FD" class="card-img-top" alt="Antoni J. Reyes">
+                        <div class="card-body">
+                            <h5 class="card-title">Antoni J. Reyes</h5>
+                            <p class="card-text">Epidemiólogo veterinario.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Agenda tu Cita</h2>
+            <form id="contactForm" class="w-50 mx-auto">
+                <div class="mb-3">
+                    <input type="text" id="nombre" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" id="email" class="form-control" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="mb-3">
+                    <input type="date" id="fecha" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <textarea id="mensaje" class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-accent">Enviar</button>
+            </form>
+            <p class="mt-4">
+                <i class="fas fa-phone"></i> Teléfono: +34 600 123 456 <br>
+                <i class="fas fa-map-marker-alt"></i> Dirección: Calle Falsa 123, Ciudad, País
+            </p>
+            <a href="https://wa.me/34600123456" class="btn btn-success">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>Síguenos en nuestras redes:</p>
+            <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
